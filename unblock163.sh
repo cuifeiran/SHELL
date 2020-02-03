@@ -42,6 +42,8 @@ _CHECK_INFO(){
 			SYSTEM_RELEASE="centos"
 		elif cat /proc/version | grep -q -E -i "debian"; then
 			SYSTEM_RELEASE="debian"
+		elif cat /etc/issue | grep -q -E -i "Raspbian"; then
+			SYSTEM_RELEASE="debian"
 		elif cat /proc/version | grep -q -E -i "ubuntu"; then
 			SYSTEM_RELEASE="ubuntu"
 		elif cat /proc/version | grep -q -E -i "centos|red hat|redhat"; then
