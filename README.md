@@ -7,6 +7,12 @@
 一些乱七八糟的脚本. 🙄  
 闲的没事写的脚本，有什么问题请发 Issues，觉得好用请点个星星~
 
+网易云:
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/cuifeiran/SHELL/master/unblock163.sh && chmod +x unblock163.sh && bash unblock163.sh
+```
+
+
 ## 项目地址
 
  - [https://github.com/XIU2/SHELL](https://github.com/XIU2/SHELL)
